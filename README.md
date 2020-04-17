@@ -31,3 +31,24 @@ WriteResult({ "nInserted" : 1 })
 > db.pets.count()
 8
 ```
+
+3 - Retorne apenas um elemento o método prático possível 
+#### Resposta
+
+```
+> db.pets.findOne()
+{
+        "_id" : ObjectId("5e96fde3a74544cacf089991"),
+        "name" : "Mike",
+        "species" : "Hamster"
+}
+```
+
+4 - Identifique o ID para o Gato Kilha
+#### Resposta
+
+```
+> db.pets.find({"name" : "Kilha", "species" : "Gato"})
+{ "_id" : ObjectId("5e96fe5ca74544cacf089993"), "name" : "Kilha", "species" : "Gato" }
+```
+
