@@ -52,3 +52,27 @@ WriteResult({ "nInserted" : 1 })
 { "_id" : ObjectId("5e96fe5ca74544cacf089993"), "name" : "Kilha", "species" : "Gato" }
 ```
 
+5 - Faça uma busca pelo ID e traga o Hamster Mike 
+#### Resposta
+
+```
+
+```
+
+6 - Use o find para trazer todos os Hamsters
+#### Resposta
+
+```
+```
+
+7 - Use o find para listar todos os pets com nome Mike 
+#### Resposta
+
+```
+```
+
+8 - Liste apenas o documento que é um Cachorro chamado Mike 
+#### Resposta
+
+```
+```
