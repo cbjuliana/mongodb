@@ -96,39 +96,134 @@ WriteResult({ "nInserted" : 1 })
 ```
 
 2 - Identifique quantas pessoas são elegíveis atendimento prioritário (pessoas com mais de 65 anos) 
+#### Resposta
 
-3 - Identifique todos os jovens (pessoas entre 12 a 18 anos). 
+```
 
-4 - Identifique quantas pessoas tem gatos, quantas tem cachorro e quantas não tem nenhum dos dois 
+```
+
+3 - Identifique todos os jovens (pessoas entre 12 a 18 anos)
+#### Resposta
+
+```
+
+```
+
+4 - Identifique quantas pessoas tem gatos, quantas tem cachorro e quantas não tem nenhum dos dois
+#### Resposta
+
+```
+
+```
 
 5 - Liste/Conte todas as pessoas acima de 60 anos que tenham gato 
+#### Resposta
+
+```
+
+```
 
 6 - Liste/Conte todos os jovens com cachorro 
+#### Resposta
+
+```
+
+```
 
 7 - Utilizando o $where, liste todas as pessoas que tem gato e cachorro 
+#### Resposta
 
-8 - Liste todas as pessoas mais novas que seus respectivos gatos. 
+```
 
-9 - Liste as pessoas que tem o mesmo nome que seu bichano (gatou ou cachorro) 
+```
 
-10 - Projete apenas o nome e sobrenome das pessoas com tipo de sangue de fator RH negativo 
+8 - Liste todas as pessoas mais novas que seus respectivos gatos
+#### Resposta
+
+```
+
+```
+
+9 - Liste as pessoas que tem o mesmo nome que seu bichano (gatou ou cachorro)
+#### Resposta
+
+```
+
+```
+
+10 - Projete apenas o nome e sobrenome das pessoas com tipo de sangue de fator RH negativo
+#### Resposta
+
+```
+
+```
 
 11 - Projete apenas os animais dos italianos. Devem ser listados os animais com nome e idade. Não mostre o identificado do mongo (ObjectId) 
+#### Resposta
+
+```
+
+```
 
 12 - Quais são as 5 pessoas mais velhas com sobrenome Rossi? 
+#### Resposta
+
+```
+
+```
 
 13 - Crie um italiano que tenha um leão como animal de estimação. Associe um nome e idade ao bichano 
+#### Resposta
 
-14 - Infelizmente o Leão comeu o italiano. Remova essa pessoa usando o Id. 
+```
 
-15 - Passou um ano. Atualize a idade de todos os italianos e dos bichanos em 1. 
+```
 
-16 - O Corona Vírus chegou na Itália e misteriosamente atingiu pessoas somente com gatos e de 66 anos. Remova esses italianos. 
+14 - Infelizmente o Leão comeu o italiano. Remova essa pessoa usando o Id
+#### Resposta
 
-17 - Utilizando o framework agregate, liste apenas as pessoas com nomes iguais a sua respectiva mãe e que tenha gato ou cachorro. 
+```
+
+```
+
+15 - Passou um ano. Atualize a idade de todos os italianos e dos bichanos em 1
+#### Resposta
+
+```
+
+```
+
+16 - O Corona Vírus chegou na Itália e misteriosamente atingiu pessoas somente com gatos e de 66 anos. Remova esses italianos
+#### Resposta
+
+```
+
+```
+
+17 - Utilizando o framework agregate, liste apenas as pessoas com nomes iguais a sua respectiva mãe e que tenha gato ou cachorro
+#### Resposta
+
+```
+
+```
 
 18 - Utilizando aggregate framework, faça uma lista de nomes única de nomes. Faça isso usando apenas o primeiro nome 
+#### Resposta
 
-19 - Agora faça a mesma lista do item acima, considerando nome completo. 
+```
 
-20 - Procure pessoas que gosta de Banana ou Maçã, tenham cachorro ou gato, mais de 20 e  menos de 60 anos. 
+```
+
+19 - Agora faça a mesma lista do item acima, considerando nome completo
+#### Resposta
+
+```
+
+```
+
+20 - Procure pessoas que gosta de Banana ou Maçã, tenham cachorro ou gato, mais de 20 e  menos de 60 anos
+#### Resposta
+
+```
+
+```
