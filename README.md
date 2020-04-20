@@ -56,23 +56,32 @@ WriteResult({ "nInserted" : 1 })
 #### Resposta
 
 ```
-
+> db.pets.find({"_id" : ObjectId("5e96fde3a74544cacf089991")})
+{ "_id" : ObjectId("5e96fde3a74544cacf089991"), "name" : "Mike", "species" : "Hamster" }
 ```
 
 6 - Use o find para trazer todos os Hamsters
 #### Resposta
 
 ```
+> db.pets.find({"species" : "Hamster"})
+{ "_id" : ObjectId("5e96fde3a74544cacf089991"), "name" : "Mike", "species" : "Hamster" }
+{ "_id" : ObjectId("5e97092aa74544cacf089998"), "name" : "Frodo", "species" : "Hamster" }
 ```
 
 7 - Use o find para listar todos os pets com nome Mike 
 #### Resposta
 
 ```
+> db.pets.find({"name" : "Mike"})
+{ "_id" : ObjectId("5e96fde3a74544cacf089991"), "name" : "Mike", "species" : "Hamster" }
+{ "_id" : ObjectId("5e96fe77a74544cacf089994"), "name" : "Mike", "species" : "Cachorro" }
 ```
 
 8 - Liste apenas o documento que é um Cachorro chamado Mike 
 #### Resposta
 
 ```
+> db.pets.find({"name" : "Mike", "species" : "Cachorro"})
+{ "_id" : ObjectId("5e96fe77a74544cacf089994"), "name" : "Mike", "species" : "Cachorro" }
 ```
